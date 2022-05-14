@@ -39,15 +39,15 @@
 
   (setup
     (stackup
-      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.SilkS" (type "Top Silk Screen") (color "Black"))
       (layer "F.Paste" (type "Top Solder Paste"))
-      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
+      (layer "F.Mask" (type "Top Solder Mask") (color "White") (thickness 0.01))
       (layer "F.Cu" (type "copper") (thickness 0.035))
       (layer "dielectric 1" (type "core") (thickness 0.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
       (layer "B.Cu" (type "copper") (thickness 0.035))
-      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
+      (layer "B.Mask" (type "Bottom Solder Mask") (color "White") (thickness 0.01))
       (layer "B.Paste" (type "Bottom Solder Paste"))
-      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (layer "B.SilkS" (type "Bottom Silk Screen") (color "Black"))
       (copper_finish "None")
       (dielectric_constraints no)
     )
@@ -154,6 +154,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "" (layer "F.Cu")
@@ -224,6 +229,11 @@
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
       (rotate (xyz 0 0 0))
     )
   )
@@ -302,6 +312,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Perforation:Perforation_0.4mm" (layer "F.Cu")
@@ -360,6 +375,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Diode_SMD:D_0402_1005Metric" (layer "F.Cu")
@@ -401,6 +421,11 @@
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
       (rotate (xyz 0 0 0))
     )
   )
@@ -488,6 +513,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Diode_SMD:D_0402_1005Metric" (layer "F.Cu")
@@ -529,6 +559,11 @@
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
       (rotate (xyz 0 0 0))
     )
   )
@@ -600,6 +635,11 @@
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
       (rotate (xyz 0 0 0))
     )
   )
@@ -674,6 +714,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Diode_SMD:D_0402_1005Metric" (layer "F.Cu")
@@ -715,6 +760,11 @@
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
       (rotate (xyz 0 0 0))
     )
   )
@@ -760,6 +810,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Diode_SMD:D_0402_1005Metric" (layer "F.Cu")
@@ -801,6 +856,11 @@
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
       (rotate (xyz 0 0 0))
     )
   )
@@ -894,6 +954,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Perforation:Perforation_0.4mm" (layer "F.Cu")
@@ -945,13 +1010,13 @@
     (at 97.3 105.8)
     (fp_text reference "" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
-      (tstamp 67a2ede5-62c2-4f13-806b-703ee88edcb2)
+      (tstamp 1afe1a5c-4ae3-4a9e-b54a-ea61401990b2)
     )
     (fp_text value "" (at 0 0) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.15)))
-      (tstamp fcf13f08-1c85-42ee-af66-1ae76aeab110)
+      (tstamp df5e197e-dc51-4c2b-b188-8937a32b4f7a)
     )
-    (pad "" np_thru_hole circle locked (at 0 0) (size 0.4 0.4) (drill 0.4) (layers *.Cu *.Mask) (tstamp beaf8853-29e3-460b-86b4-d54d64a5682c))
+    (pad "" np_thru_hole circle locked (at 0 0) (size 0.4 0.4) (drill 0.4) (layers *.Cu *.Mask) (tstamp c4764e23-fb14-4134-8bd7-d07e3ffb4111))
   )
 
   (footprint "Diode_SMD:D_0402_1005Metric" (layer "F.Cu")
@@ -995,6 +1060,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "" (layer "F.Cu")
@@ -1002,13 +1072,13 @@
     (at 104.55 101.99792)
     (fp_text reference "" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
-      (tstamp 118840f1-caf4-4fcd-a5d1-75f4b59cccc5)
+      (tstamp eff4cce0-72d3-41b1-920a-71ac3c49836e)
     )
     (fp_text value "" (at 0 0) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.15)))
-      (tstamp f6070161-730b-4c7b-9dfe-f9ae95f0bbe4)
+      (tstamp 1d470b11-bf2b-4d56-ac66-0ac8145cf2fb)
     )
-    (pad "" np_thru_hole circle locked (at 0 0) (size 0.4 0.4) (drill 0.4) (layers *.Cu *.Mask) (tstamp 5cb4d57d-50cc-4089-acbb-bbed71f9618c))
+    (pad "" np_thru_hole circle locked (at 0 0) (size 0.4 0.4) (drill 0.4) (layers *.Cu *.Mask) (tstamp 8928f53d-0915-43e1-9636-39c4d14e49aa))
   )
 
   (footprint "Diode_SMD:D_0402_1005Metric" (layer "F.Cu")
@@ -1052,6 +1122,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "" (layer "F.Cu")
@@ -1088,13 +1163,13 @@
     (attr through_hole)
     (fp_text reference "REF**" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 62d1c5fa-daf2-4d03-a0c0-2c601a4c06c9)
+      (tstamp 7730ec98-2364-42de-b371-1bbd18c4f523)
     )
     (fp_text value "Perforation_0.4mm" (at 0 -0.5) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp c9a1666f-54c4-4cd1-bc1f-1516f733fc85)
+      (tstamp 2c471a8d-dfdc-4f7d-b786-aab5eb593fc2)
     )
-    (pad "" np_thru_hole circle locked (at 0 0) (size 0.4 0.4) (drill 0.4) (layers *.Cu *.Mask) (tstamp f8ce8216-d151-4e96-8bb1-b526f5aa2907))
+    (pad "" np_thru_hole circle locked (at 0 0) (size 0.4 0.4) (drill 0.4) (layers *.Cu *.Mask) (tstamp 3ff6a08c-f173-4ef9-9d52-afb0001b3096))
   )
 
   (footprint "Diode_SMD:D_0402_1005Metric" (layer "F.Cu")
@@ -1138,6 +1213,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Diode_SMD:D_0402_1005Metric" (layer "F.Cu")
@@ -1179,6 +1259,11 @@
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1236,6 +1321,11 @@
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1323,6 +1413,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Diode_SMD:D_0402_1005Metric" (layer "F.Cu")
@@ -1364,6 +1459,11 @@
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1422,6 +1522,11 @@
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 0.7))
       (rotate (xyz 0 0 0))
     )
   )

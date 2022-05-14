@@ -294,7 +294,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e58a7eb3-037c-4a74-aecd-96a5df6a265b)
     (property "Reference" "R1" (id 0) (at 130.81 88.2736 90))
-    (property "Value" "330R" (id 1) (at 130.81 90.8105 90))
+    (property "Value" "220R" (id 1) (at 130.81 90.8105 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 130.81 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
