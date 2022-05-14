@@ -14,7 +14,7 @@ and prologned battery runtime.
 
 ## Bottom
 
-![Render of PCB bottom side](/assets/pcb_top.png)
+![Render of PCB bottom side](/assets/pcb_bottom.png)
 
 # Assembly
 
