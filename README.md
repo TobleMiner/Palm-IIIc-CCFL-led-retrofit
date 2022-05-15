@@ -4,9 +4,9 @@ Palm IIIc LED backlight replacement
 This repo contains a PCB designed to replace the CCFL backlight of Palm
 IIIc PDAs with a LED based backlight.  
 The LED based backlight can provide higher fidelity of displayed colors
-and prologned battery runtime.
+and prolonged battery runtime.
 
-# LED pcb
+# LED PCB
 
 ## Top
 
@@ -25,7 +25,7 @@ place or using solder paste. Using hot air at a low airflow setting the
 components can then be reflowed into place.  
 For connecting the power supply wiring it is best to connect one wire on
 the top and one at the back opposite to the first wire. Use thin enamel
-wire (~0.2 mm diameter) to ensure there are no fittment problems after
+wire (~0.2 mm diameter) to ensure there are no fitment problems after
 installation into the Palm.
 
 # Installation
@@ -34,11 +34,11 @@ As a first step the Palm has to be fully disassembled. This includes
 removing the bare LCD cell from the LCD assembly. After removal of the LCD
 cell the white tape over the CCFL tube in the white backlight diffuser
 assembly can be pulled up. Then the CCFL tube can be removed.  
-Next the assmbled LED PCB can be placed into the diffuser assembly in the
+Next the assembled LED PCB can be placed into the diffuser assembly in the
 same spot where the CCFL tube was previously located. After reassembly of
-the LCD assembly it can be playced back into the case, also reassembling
+the LCD assembly it can be placed back into the case, also reassembling
 the midframe.  
-Finally it is necessary to peform a small modification of the Palm's 
+Finally it is necessary to perform a small modification of the Palm's 
 mainboard to disable the original CCFL inverter and enable control of the
 LED backlight.  
 The Palm IIIc employs a LX1686CPW CCFL controller for backlight control.
@@ -63,7 +63,7 @@ battery power next to the battery connector.
 # Results
 
 After installing this mod the backlight is substantially brighter and
-reaches full brighness immediately after waking up the Palm. Also colors
+reaches full brightness immediately after waking up the Palm. Also colors
 look a lot more vibrant. The following photo tries to capture how good the
 colors look but really does not quite do the improvement justice.
 
