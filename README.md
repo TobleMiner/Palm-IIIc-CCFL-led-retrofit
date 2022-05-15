@@ -57,8 +57,8 @@ Here I just connected the MOSFET source to GND on a conveniently placed
 capacitor to fix it in place. I then connected the PWM backlight control
 signal from pin 11 on the CCFL controller IC to the MOSFET gate. Finally
 I connected the negative LED board connection to the MOSFET's drain and
-the positive LED board connection to a conveniently placed, large
-testpoint providing direct B+ battery power next to the battery connector.
+the positive LED board connection to a large testpoint providing direct B+
+battery power next to the battery connector.
 
 # Results
 
